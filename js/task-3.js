@@ -9,7 +9,7 @@ const profile = {
 
     updatePlayTime(newTime) {
         if (newTime >= 0) {
-            this.playTime = newTime;
+            this.playTime += newTime;
             console.log(`PlayTime successfully updated to: ${this.playTime} hours`);
         } else {
             console.error("Error: PlayTime must be a non-negative number.");
