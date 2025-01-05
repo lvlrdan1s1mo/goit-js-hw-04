@@ -9,9 +9,9 @@ updatePlayTime(hours){
     this.playTime += hours;
 },
 getInfo(){
-    return `${this.Username} has ${this.hours} active hours!`
-}
-}
+    return `${this.Username} has ${this.hours} active hours!`;
+},
+};
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
 
