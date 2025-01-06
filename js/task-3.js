@@ -9,7 +9,7 @@ updatePlayTime(hours){
     this.playTime += hours;
 },
 getInfo(){
-    return `${this.Username} has ${this.hours} active hours!`;
+    return `${this.username} has ${this.playTime} active hours!`;
 },
 };
 
